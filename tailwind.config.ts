@@ -10,8 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         teal: {
-          3: "#048c7f",
-          5: "#008080",
+          3: "#c2e0df",
+          5: "#20c997",
         },
       },
       backgroundImage: {
