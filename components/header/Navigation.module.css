@@ -6,7 +6,7 @@
     padding: 1rem 10rem;
 
     @media (max-width: 767px) {
-        padding: 1.5rem .5rem;
+        padding: 3rem .5rem 1rem .5rem;
         justify-content: center;
         gap: 3%;
     }
