@@ -15,8 +15,17 @@
   --textSoft: #e0e2e9;
   --bg: #151c2c;
   --bgSoft: #182237;
-  --teal-3: #c2e0df;
-  --teal-5: #20c997;
+  
+  --teal-0: #ccfbf1;
+  --teal-1: #99f6e4;
+  --teal-2: #5eead4;
+  --teal-3: #2dd4bf;
+  --teal-5: #14b8a6;
+  --teal-6: #0d9488;
+  --teal-7: #0f766e;
+  --teal-8: #115e59;
+  --teal-9: #134e4a;
+
 }
 
 * {

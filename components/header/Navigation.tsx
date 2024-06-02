@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
+import styles from "./Navigation.module.css"
 
 const navigationmenu = [
     { label: "About", link: "/" },
@@ -12,16 +13,15 @@ const Navigation = () => {
     const pathName = usePathname()
 
     return (
-        <nav className='flex flex-row justify-evenly p-2 w-full'>
-            <div className="left">
-                <Link href="/" className='font-mono text-xl font-extrabold'>Victor</Link>
+        <nav className={styles.container}>
+            <div className={styles.left}>
+                <Link href="/" className={styles.logo}>Victor</Link>
             </div>
-            <div className="right flex flex-row  mx-8">
-
+            <div className={styles.right}>
                 {navigationmenu.map((items) => (
-                    <Link key={items.label} href={items.link} className={`${pathName === items.link ? "text-teal-5 border-b-2 border-teal-5 " : "text-white"} mx-3 p-1 font-mono`}> {items.label} </Link>
+                    <Link key={items.label} href={items.link} className={`${pathName === items.link ? styles.active : styles.inactive}`}> {items.label} </Link>
                 ))}
-                <button className='btn bg-teal-5 px-3 text-sm rounded-lg text-black'> Button </button>
+                <button className={styles.button}> Button </button>
             </div>
         </nav>
     )
