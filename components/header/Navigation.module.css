@@ -39,6 +39,7 @@
     
     @media (max-width: 767px) {
         margin: 0.3rem;
+        border-bottom: 1.5px solid var(--teal-5);
     }
 }
 
