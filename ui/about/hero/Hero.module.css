@@ -14,7 +14,6 @@
         padding: .3rem;
         justify-content: center;
         margin: 0 auto;
-        border: 2px solid red;
 
     }
 }
@@ -43,7 +42,6 @@
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    border: 2px solid red;
     
     @media (max-width: 767px) {
         width: 65%;
