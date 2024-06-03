@@ -54,7 +54,7 @@
     line-height: 15px;
 
     @media (max-width: 767px) {
-        font-size: .8rem;
+        font-size: .7rem;
         flex-wrap: wrap;
     }
 }
