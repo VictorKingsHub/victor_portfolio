@@ -75,7 +75,7 @@
     border: 4px dashed var(--teal-5);
     padding: .5rem;
     border-radius: 50%;
-    animation: spin 10s linear infinite;
+    animation: spin 15s linear infinite;
 
     @media (max-width: 767px) {
         border: 2px dashed var(--teal-5);
@@ -129,48 +129,17 @@
 
 @keyframes nameColor {
     0% {
-        color: var(--teal-7);
-    }
-
-    10% {
-        color: var(--teal-5);
-    }
-
-    20% {
-        color: var(--teal-3);
-    }
-
-    30% {
-        color: var(--teal-5);
-    }
-
-    40% {
-        color: var(--teal-7);
-    }
-
-    50% {
         color: var(--teal-9);
     }
 
-    60% {
-        color: var(--teal-7);
-    }
-
-    70% {
-        color: var(--teal-5);
-    }
-
-    80% {
+    50% {
         color: var(--teal-3);
     }
 
-    90% {
-        color: var(--teal-5);
+    100% {
+        color: var(--teal-9);
     }
 
-    100% {
-        color: var(--teal-6);
-    }
 }
 
 
