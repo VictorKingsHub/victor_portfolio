@@ -48,8 +48,8 @@
 
 .desc {
     font-size: 0.8rem;
-    color: var(--textSoft);
-    opacity: .8;
+    color: var(--teal-5);
+    /* opacity: .8; */
     text-align: left;
     line-height: 15px;
 
