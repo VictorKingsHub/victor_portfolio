@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import styles from "./CountUp.module.css"
-import CountUp from 'react-countup/build/CountUp';
+import CountUp from 'react-countup';
 
 interface CountUpProps {
     end: number; // The final count value
