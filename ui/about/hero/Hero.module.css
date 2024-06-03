@@ -50,6 +50,9 @@
     }
 }
 
+.about{
+    font-size: 1.5rem;
+}
 
 .right {
     width: 50%;
@@ -184,6 +187,11 @@
 }
 
 .but {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     padding: .3rem;
     border-radius: 1rem;
     border: 2px solid var(--teal-5);

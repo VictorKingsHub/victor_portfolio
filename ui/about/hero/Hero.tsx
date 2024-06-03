@@ -6,6 +6,7 @@ import { FaGithub } from 'react-icons/fa'
 import { TiSocialLinkedin } from 'react-icons/ti'
 import { BsFacebook } from 'react-icons/bs'
 import { SiGmail } from 'react-icons/si'
+import { MdFileDownload } from 'react-icons/md'
 
 const HeroSection = () => {
     return (
@@ -15,13 +16,13 @@ const HeroSection = () => {
                     <p className={styles.prof}>Front-End Developer</p>
                     <h1 className={styles.name}>Hello, I&apos;m  <span className={styles.nameEnd}>Victor Eze</span></h1>
                 </div>
-                <div className='px-3'>
-                    <p>I excel at crafting elegant digital experiences <br />
+                <div className={styles.about}>
+                    <p >I excel at crafting elegant digital experiences <br />
                         I&apos;m hightly experienced in various frontend technologies</p>
                 </div>
                 <div className={styles.down}>
                     <Link href="/" className={styles.but}>
-                        CV download
+                        <span>CV download  </span> <MdFileDownload />
                     </Link>
                     <Link href={`mailto:ezevictornkemjika@gmail.com`} className={styles.Link}>
                     <SiGmail />
