@@ -17,7 +17,7 @@ const HeroSection = () => {
                 </div>
                 <div className='px-3'>
                     <p>I excel at crafting elegant digital experiences <br />
-                        I&apos;m experienced in various frontend technologies</p>
+                        I&apos;m hightly experienced in various frontend technologies</p>
                 </div>
                 <div className={styles.down}>
                     <Link href="/" className={styles.Link}>CV download</Link>
