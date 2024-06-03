@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { FaGithub } from 'react-icons/fa'
 import { TiSocialLinkedin } from 'react-icons/ti'
 import { BsFacebook } from 'react-icons/bs'
+import { SiGmail } from 'react-icons/si'
 
 const HeroSection = () => {
     return (
@@ -19,10 +20,20 @@ const HeroSection = () => {
                         I&apos;m hightly experienced in various frontend technologies</p>
                 </div>
                 <div className={styles.down}>
-                    <Link href="/" className={styles.but}>CV download</Link>
-                    <Link href="" className={styles.Link}> <FaGithub /> </Link>
-                    <Link href="" className={styles.Link}> <TiSocialLinkedin /> </Link>
-                    <Link href="" className={styles.Link}> <BsFacebook />
+                    <Link href="/" className={styles.but}>
+                        CV download
+                    </Link>
+                    <Link href={`mailto:ezevictornkemjika@gmail.com`} className={styles.Link}>
+                    <SiGmail />
+                    </Link>
+                    <Link href="https://github.com/VictorKingsHub" className={styles.Link}>
+                        <FaGithub />
+                    </Link>
+                    <Link href="www.linkedin.com/in/eze-victor-nkemjika-hub" className={styles.Link}>
+                        <TiSocialLinkedin />
+                    </Link>
+                    <Link href="https://web.facebook.com/VictorKingsConcepts/" className={styles.Link}>
+                        <BsFacebook />
                     </Link>
                 </div>
 
