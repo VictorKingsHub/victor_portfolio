@@ -164,3 +164,9 @@
     border-radius: 1rem;
     padding: .3rem;
 }
+.but{
+    @media (max-width: 767px) {
+   font-size: 0.7rem;
+
+    }
+}
