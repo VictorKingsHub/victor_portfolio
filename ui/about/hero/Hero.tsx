@@ -2,16 +2,15 @@ import Image from 'next/image'
 import React from 'react'
 import styles from "./Hero.module.css"
 import Link from 'next/link'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 import { TiSocialLinkedin } from 'react-icons/ti'
-import { IoLogoFacebook } from 'react-icons/io'
 import { BsFacebook } from 'react-icons/bs'
 
 const HeroSection = () => {
     return (
         <div className={styles.container}>
             <div className={styles.left} >
-                <div className='text-left'>
+                <div className={styles.namebody}>
                     <p className={styles.prof}>Front-End Developer</p>
                     <h1 className={styles.name}>Hello, I&apos;m  <span className={styles.nameEnd}>Victor Eze</span></h1>
                 </div>
