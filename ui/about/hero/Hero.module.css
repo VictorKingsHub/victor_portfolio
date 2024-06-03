@@ -11,7 +11,7 @@
 
     @media (max-width: 767px) {
         flex-direction: column;
-        padding: 2rem .1rem 1rem .1rem;
+        padding: .5rem .1rem 1rem .1rem;
         justify-content: center;
         margin: 0 auto;
         gap: 15px;
