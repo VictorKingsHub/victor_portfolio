@@ -11,7 +11,7 @@ const HeroSection = () => {
     return (
         <div className={styles.container}>
             <div className={styles.left} >
-                <div >
+                <div className='text-left'>
                     <p className={styles.prof}>Front-End Developer</p>
                     <h1 className={styles.name}>Hello, I&apos;m  <span className={styles.nameEnd}>Victor Eze</span></h1>
                 </div>
@@ -20,7 +20,7 @@ const HeroSection = () => {
                         I&apos;m hightly experienced in various frontend technologies</p>
                 </div>
                 <div className={styles.down}>
-                    <Link href="/" className={styles.Link || styles.but}>CV download</Link>
+                    <Link href="/" className={styles.but}>CV download</Link>
                     <Link href="" className={styles.Link}> <FaGithub /> </Link>
                     <Link href="" className={styles.Link}> <TiSocialLinkedin /> </Link>
                     <Link href="" className={styles.Link}> <BsFacebook />
