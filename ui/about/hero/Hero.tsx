@@ -22,7 +22,7 @@ const HeroSection = () => {
                 </div>
                 <div className={styles.down}>
                     <Link href="/" className={styles.but}>
-                        <span>CV download  </span> <MdFileDownload />
+                        <span>cv download  </span> <MdFileDownload />
                     </Link>
                     <Link href={`mailto:ezevictornkemjika@gmail.com`} className={styles.Link}>
                     <SiGmail />
