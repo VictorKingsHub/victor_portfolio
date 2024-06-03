@@ -20,7 +20,7 @@ const HeroSection = () => {
                         I&apos;m hightly experienced in various frontend technologies</p>
                 </div>
                 <div className={styles.down}>
-                    <Link href="/" className={styles.Link && styles.but}>CV download</Link>
+                    <Link href="/" className={styles.Link || styles.but}>CV download</Link>
                     <Link href="" className={styles.Link}> <FaGithub /> </Link>
                     <Link href="" className={styles.Link}> <TiSocialLinkedin /> </Link>
                     <Link href="" className={styles.Link}> <BsFacebook />
