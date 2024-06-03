@@ -5,32 +5,36 @@
     align-items: center;
     max-width: 100%;
     padding: 1rem 10rem;
-    height: 80vh;
+    height: 70vh;
     gap: 30px;
     box-sizing: border-box;
-
+    color: var(--textSoft);
+    
+    
     @media (max-width: 767px) {
         flex-direction: column;
         padding: .5rem 0 1rem 0;
         justify-content: center;
         margin: 0 auto;
         gap: 15px;
-
+        
     }
 }
 
 .prof {
-
+    color: var(--textSoft);
+    
     @media (max-width: 767px) {
         font-size: 0.7rem;
-
+        
     }
 }
 
 .namebody {
     /* border: 2px solid red; */
     align-self: flex-start;
-
+    color: var(--textSoft);
+    
 }
 
 .left {
@@ -42,7 +46,8 @@
     align-items: start;
     margin: 0 auto;
     text-align: left;
-
+    color: var(--textSoft);
+    
     @media (max-width: 767px) {
         width: 85%;
         justify-content: center;
@@ -53,7 +58,8 @@
 
 .about {
     font-size: 1.5rem;
-
+    color: var(--textSoft);
+    
     @media (max-width: 767px) {
         font-size: 1rem;
     }
@@ -65,7 +71,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-
+    
     @media (max-width: 767px) {
         width: 65%;
     }
@@ -76,7 +82,7 @@
     padding: .5rem;
     border-radius: 50%;
     animation: spin 15s linear infinite;
-
+    
     @media (max-width: 767px) {
         border: 2px dashed var(--teal-5);
     }
@@ -86,11 +92,11 @@
     0% {
         transform: rotate(-5deg);
     }
-
+    
     50% {
         transform: rotate(5deg);
     }
-
+    
     100% {
         transform: rotate(-5deg);
     }
@@ -104,7 +110,7 @@
     font-size: 50px;
     font-weight: 700;
     line-height: 3.5rem;
-    color: var(--text);
+    color: var(--textSoft);
 
     @media (max-width: 767px) {
         font-size: 40px;
