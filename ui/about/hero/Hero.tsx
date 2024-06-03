@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className={styles.container}>
             <div className={styles.left} >
                 <div >
-                    <p>Front-End Developer</p>
+                    <p className={styles.prof}>Front-End Developer</p>
                     <h1 className={styles.name}>Hello, I&apos;m  <span className={styles.nameEnd}>Victor Eze</span></h1>
                 </div>
                 <div className='px-3'>
