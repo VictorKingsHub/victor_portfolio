@@ -11,8 +11,8 @@
     text-align: center;
 
     @media (max-width: 767px) {
-        padding: .3rem 0;
-        justify-content: center;
+        padding: 2rem 0;
+        justify-content: stretch;
         gap: 15px;
     }
 }
