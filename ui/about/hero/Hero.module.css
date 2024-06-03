@@ -84,6 +84,11 @@
     font-size: 50px;
     font-weight: 600;
     line-height: 3.5rem;
+
+    @media (max-width: 767px) {
+      font-size: 45px;
+
+    }
 }
 
 .nameEnd {
