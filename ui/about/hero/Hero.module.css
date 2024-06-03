@@ -102,6 +102,7 @@
 .nameEnd {
     color: var(--teal-5);
     animation: nameColor 20s linear infinite;
+    display: block;
 }
 
 @keyframes nameColor {
