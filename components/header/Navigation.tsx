@@ -21,7 +21,7 @@ const Navigation = () => {
                 {navigationmenu.map((items) => (
                     <Link key={items.label} href={items.link} className={`${pathName === items.link ? styles.active : styles.inactive}`}> {items.label} </Link>
                 ))}
-                <button className={styles.button}> Button </button>
+                <button className={styles.button}> Hire Me </button>
             </div>
         </nav>
     )
