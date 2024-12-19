@@ -29,7 +29,7 @@
     color: var(--textSoft);
     font-size: 1.5rem;
     @media (max-width: 767px) {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 }
 .namebody {
