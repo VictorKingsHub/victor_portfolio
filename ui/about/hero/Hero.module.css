@@ -190,7 +190,7 @@
 
     @media (max-width: 767px) {
         font-size: 0.7rem;
-        border: 2px solid var(--teal-5);
+        border: 1px solid var(--teal-5);
         border-radius: 1rem;
         padding: .3rem;
 
