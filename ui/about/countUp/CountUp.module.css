@@ -6,14 +6,17 @@
     gap: 80px;
     width: 100%;
     color: var(--text);
-    padding: 0 10rem;
+    padding: 1.5rem 10rem;
     width: 100%;
     text-align: center;
+    background-color: var(--bgLight);
+    border-radius: .5rem;
 
     @media (max-width: 767px) {
-        padding: 2rem 0;
-        justify-content: stretch;
-        gap: 15px;
+        padding: 1rem 0;
+        justify-content: center;
+        gap: 25px;
+        min-width: 80vw;
     }
 }
 
@@ -28,7 +31,7 @@
 
     @media (max-width: 767px) {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: .5px;
     }
 

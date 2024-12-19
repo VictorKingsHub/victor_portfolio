@@ -1,0 +1,30 @@
+.container{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 5rem;
+}
+.both{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+
+}
+.wrapper{
+    background-color: yellow;
+    width: 32%;
+    padding: 1rem;
+    border-radius: .3rem;
+    height: 80vh;
+}
+.answer{
+    background-color: blueviolet;
+    width: 65%;
+    padding: 2rem;
+    border-radius: .5rem;
+    height: 80vh;
+}
