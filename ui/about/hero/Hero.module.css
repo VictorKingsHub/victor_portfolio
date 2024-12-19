@@ -172,6 +172,10 @@
     border: 2px solid var(--teal-5);
     border-radius: 1rem;
     padding: .3rem;
+    
+    @media (max-width: 767px) {
+        border: 1px solid var(--teal-5);
+    }
 }
 
 .but {
