@@ -85,9 +85,6 @@ export default function PhotoSpeaksSection () {
           })}
         </div>
         <div className={styles.answer}>
-          <h1 className='w-full text-center mb-5 text-yellow-300'>
-            Some 
-          </h1>
           {data.map(ans => {
             return (
               <div className={styles.allAnswer} key={ans.id}>
@@ -105,7 +102,7 @@ export default function PhotoSpeaksSection () {
                     <div className={styles.answerText}>
                       <h1 className={styles.title}> {ans.title} </h1>
                       <p className={styles.desc}>{ans.desc}</p>
-                      <div>
+                      <div className={styles.a}>
                         <a
                           href={ans.link}
                           target='_blank'
