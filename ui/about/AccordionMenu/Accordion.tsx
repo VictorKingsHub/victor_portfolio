@@ -42,16 +42,6 @@ function AccordionMenu () {
         </div>
         <div className={styles.answer}>
           <div className={styles.right}>
-            <div className={styles.ans}>
-              <h1>Why Hire Me?</h1>
-              <span>
-                Great dedicated to crafting pixel-perfect, user-centric
-                interfaces. Passionate about writing clean, efficient,
-                responsive and maintainable code to provide solution to
-                challanges
-              </span>
-            </div>
-
             {data.map((list: any) => {
               return (
                 <div className={styles.allAnswer} key={list.id}>

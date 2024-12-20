@@ -1,8 +1,8 @@
 const data = [
     {
       id: 1,
-      question: 'School Services',
-      title: 'Educational Consulting',
+      question: 'Experience',
+      title: 'Experience',
       answer:
         "Teachers Capacity Building and Workshop, School Supervision, Management and Teacher's recruiting.",
       img: '/risk.png',
@@ -12,7 +12,7 @@ const data = [
   
     {
       id: 2,
-      question: 'School Upgrade',
+      question: 'Education',
       title: "Teachers' staffing",
       answer:
         'Accreditation and Upgrading for new and existing schools, Curriculum design and development.',
@@ -23,7 +23,7 @@ const data = [
   
     {
       id: 3,
-      question: 'Teaching Materials',
+      question: 'Skill',
       title: 'Cambridge Curriculum',
       answer: 'Supply of Teaching and learning aids',
       img: '/edu2.jpg',
@@ -33,7 +33,7 @@ const data = [
   
     {
       id: 4,
-      question: 'Trained Teachers Academy',
+      question: 'About Me',
       title: 'Trained Teachers Academy',
       answer:
         'We give professional guidance and assistance through our well-structured Academy for Educators',
